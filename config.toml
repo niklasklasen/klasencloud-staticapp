@@ -1,4 +1,4 @@
-title = "My cool new Blog"
+title = "Niklas Klasén"
 baseURL = "https://yellow-sand-03b74d403.azurestaticapps.net"
 theme = "bilberry-hugo-theme"
 
@@ -27,12 +27,12 @@ disqusShortname = ""
   js_modules = []
 
   # Description and meta data for the search engines
-  author = "Lednerb"
-  description = "Bilberry Premium Theme for Hugo."
+  author = "Niklas Klasén"
+  description = "Personal blog about Cloud and other technologies"
   keywords = "blog,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,premium,shortcuts"
 
   # How many articles should be displayed at once?
-  paginate = 7
+  paginate = 3
 
   # Enable / Disable MathJax
   enable_mathjax    = false
@@ -46,7 +46,7 @@ disqusShortname = ""
     algolia_currentLanguageOnly = true
 
   # Enable / Disable comments on the articles via commento
-  commentoJsURL = "https://commento.lednerb.de/js/commento.js"
+  # commentoJsURL = "https://commento.lednerb.de/js/commento.js"
 
   # Media configuration
     # let hugo automatically resize and crop your images to the correct sizes
@@ -56,10 +56,10 @@ disqusShortname = ""
 
   # Header configuration
     # your subtitle if you want to use any
-    subtitle = "Hello World! This is the most epic subtitle ever."
+    subtitle = "My personal blog about Cloud and other tech"
 
     # if you want to use libravatar or gravatar for the header image
-    avatarEmail = "code@lednerb.de"
+    # avatarEmail = "code@lednerb.de"
 
     # set an path to the image file you want to use | overwrites avatar by email
     customImage = ""
@@ -68,14 +68,14 @@ disqusShortname = ""
     overlayIcon = "fa-home"
 
     # always display the top navigation (with pages and search) on non-mobile screens
-    permanentTopNav = false
+    permanentTopNav = true
 
     # always display the top navigation when scrolling
     # works only with permanentTopNav = true
-    stickyNav = false
+    stickyNav = true
 
     # show a language chooser in the header
-    showHeaderLanguageChooser = true
+    showHeaderLanguageChooser = false
 
   # Content configuration
     # Enable an optional pinned page to display at the top of the index
@@ -102,14 +102,14 @@ disqusShortname = ""
 
     # How many articles should be displayed at latest posts in the footer?
     # Set to -1 to hide the 'Latest Posts' column
-    amountLatestPostsInFooter = 7
+    amountLatestPostsInFooter = 5
 
     # How many categories should be displayed in the footer section?
     # Set to -1 to hide the 'Categories' column
-    amountCategoriesInFooter = 7
+    amountCategoriesInFooter = 5
 
     # show a language chooser in the footer
-    showFooterLanguageChooser = true
+    showFooterLanguageChooser = false
 
     # social media profile urls for the footer links
     showSocialMedia = true
@@ -118,17 +118,18 @@ disqusShortname = ""
     # all icons https://fontawesome.com/icons?d=gallery&m=free
     # brand icons https://fontawesome.com/icons?d=gallery&s=brands&m=free
     socialMediaLinks = [
-      { link = "https://twitter.com/TheRealLednerb", icon = "fab fa-twitter" },
-      { link = "https://github.com/Lednerb", icon = "fab fa-github" },
+      { link = "https://linkedin.com/in/niklas-klasén-2368a4112", icon = "fab fa-linkedin" },
+      { link = "https://twitter.com/niklas_klasen", icon = "fab fa-twitter" },
+      { link = "https://github.com/niklasklasen", icon = "fab fa-github" },
     ]
 
     # credits line configuration
-    copyrightBy = "by Lednerb"
-    copyrightUseCurrentYear = false  # set to true to always display the current year in the copyright
-    copyrightYearOverride = "2017"
-    copyrightUrl = "https://github.com/Lednerb"
-    creditsText = "Bilberry Hugo Theme"
-    creditsUrl = "https://github.com/Lednerb/bilberry-hugo-theme"
+    copyrightBy = "by Niklas Klasén"
+    copyrightUseCurrentYear = true  # set to true to always display the current year in the copyright
+    # copyrightYearOverride = "2017"
+    # copyrightUrl = "https://github.com/Lednerb"
+    creditsText = "Powerd by Hugo"
+    creditsUrl = "https://gohugo.io"
 
 
 # customize your available languages for your multi-lingual site
