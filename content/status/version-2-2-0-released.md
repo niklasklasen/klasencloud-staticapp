@@ -1,7 +1,7 @@
 ---
-date: 2020-08-15T10:45:44+02:00
+date: 2021-03-31
 
 icon: "fa-rocket"
 showDate: false
 ---
-I'm happy to announce a new theme release with the powerful new `status` post type!
+Content to come. Stay tuned!
